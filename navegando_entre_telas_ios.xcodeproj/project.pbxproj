@@ -12,6 +12,8 @@
 		AC66D5131F07F248006FCD6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC66D5111F07F248006FCD6B /* Main.storyboard */; };
 		AC66D5151F07F248006FCD6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC66D5141F07F248006FCD6B /* Assets.xcassets */; };
 		AC66D5181F07F248006FCD6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC66D5161F07F248006FCD6B /* LaunchScreen.storyboard */; };
+		AC66D5201F080F54006FCD6B /* TelaXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66D51F1F080F54006FCD6B /* TelaXViewController.swift */; };
+		AC66D5221F081375006FCD6B /* TelaVermelhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66D5211F081375006FCD6B /* TelaVermelhaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC66D5141F07F248006FCD6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC66D5171F07F248006FCD6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC66D5191F07F248006FCD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC66D51F1F080F54006FCD6B /* TelaXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaXViewController.swift; sourceTree = "<group>"; };
+		AC66D5211F081375006FCD6B /* TelaVermelhaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaVermelhaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				AC66D50D1F07F248006FCD6B /* AppDelegate.swift */,
 				AC66D50F1F07F248006FCD6B /* ViewController.swift */,
 				AC66D5111F07F248006FCD6B /* Main.storyboard */,
+				AC66D51F1F080F54006FCD6B /* TelaXViewController.swift */,
 				AC66D5141F07F248006FCD6B /* Assets.xcassets */,
 				AC66D5161F07F248006FCD6B /* LaunchScreen.storyboard */,
 				AC66D5191F07F248006FCD6B /* Info.plist */,
+				AC66D5211F081375006FCD6B /* TelaVermelhaViewController.swift */,
 			);
 			path = navegando_entre_telas_ios;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC66D5221F081375006FCD6B /* TelaVermelhaViewController.swift in Sources */,
+				AC66D5201F080F54006FCD6B /* TelaXViewController.swift in Sources */,
 				AC66D5101F07F248006FCD6B /* ViewController.swift in Sources */,
 				AC66D50E1F07F248006FCD6B /* AppDelegate.swift in Sources */,
 			);
